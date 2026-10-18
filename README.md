@@ -48,58 +48,94 @@ Prices below are the **lowest publicly listed paid tier** (USD, as published on 
 
 ## Open-Source GitHub Projects
 
-- **[Promptfoo](https://github.com/promptfoo/promptfoo)**
-  **The leading developer-first CLI and library for LLM evaluation and red teaming** — 8,700+ stars, MIT licensed. Declarative YAML configs, 100% local evals (prompts never leave your machine), model comparison across GPT/Claude/Gemini/Llama, CI/CD integration, and vulnerability scanning for prompt injection and jailbreaks .
+Every repository below carries a live **star badge** (`style=social`, white) that links straight to its own stargazers page, and the list is sorted by **star count, descending** (star counts move, so the badges are the source of truth).
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)**
-  **Pytest-style unit testing framework for LLM outputs** — G-Eval, hallucination, answer relevancy, faithfulness, contextual precision/recall, and RAGAS metrics running locally. Red-team 40+ safety vulnerabilities, benchmark on MMLU/HellaSwag/TruthfulQA, and create custom metrics .
-
-- **[Ragas](https://github.com/explodinggradients/ragas)**
-  **Research-backed RAG evaluation toolkit** — objective metrics (faithfulness, answer relevance, context precision/recall), intelligent test data generation, and seamless LangChain/LlamaIndex integration .
-
-- **[TruLens](https://github.com/truera/trulens)**
-  **OpenTelemetry-native evaluation and tracing framework** — RAG Triad metrics (groundedness, answer relevance, context relevance), agentic evaluators, and export to any OTLP backend (Jaeger, Grafana Tempo, Datadog). Completely free and self-hosted .
-
-- **[Giskard](https://github.com/Giskard-AI/giskard)**
-  Open-source AI quality testing for bias detection, robustness testing, and explainability across ML models and LLM applications .
-
-- **[OpenLIT](https://github.com/openlit/openlit)**
-  OpenTelemetry-native LLMOps platform with evaluation, observability, and guardrails for LLM applications .
-
-- **[Langfuse](https://github.com/langfuse/langfuse)**
+- **[Langfuse](https://github.com/langfuse/langfuse)** [![Langfuse stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)
   Open-source LLM observability and evaluation platform with managed LLM-as-judge, annotation queues, and prompt experiments. MIT licensed and self-hostable .
 
-- **[Arize Phoenix](https://github.com/Arize-ai/phoenix)**
+- **[Promptfoo](https://github.com/promptfoo/promptfoo)** [![Promptfoo stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)
+  **The leading developer-first CLI and library for LLM evaluation and red teaming** — MIT licensed. Declarative YAML configs, 100% local evals (prompts never leave your machine), model comparison across GPT/Claude/Gemini/Llama, CI/CD integration, and vulnerability scanning for prompt injection and jailbreaks .
+
+- **[Opik](https://github.com/comet-ml/opik)** [![Opik stars](https://img.shields.io/github/stars/comet-ml/opik?style=social&color=white)](https://github.com/comet-ml/opik/stargazers)
+  Comet's open-source LLM evaluation suite — trace logging, **metric libraries for hallucination/contamination/PII**, production and offline monitoring, and a Docker-compose self-host stack .
+
+- **[OpenAI Evals](https://github.com/openai/evals)** [![OpenAI Evals stars](https://img.shields.io/github/stars/openai/evals?style=social&color=white)](https://github.com/openai/evals/stargazers)
+  OpenAI’s framework and registry of LLM evals — the capability and safety suites behind the original GPT-3/GPT-4 releases, plus a simple YAML/Python format for authoring your own regression tests .
+
+- **[DeepEval](https://github.com/confident-ai/deepeval)** [![DeepEval stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers)
+  **Pytest-style unit testing framework for LLM outputs** — G-Eval, hallucination, answer relevancy, faithfulness, contextual precision/recall, and RAGAS metrics running locally. Red-team 40+ safety vulnerabilities, benchmark on MMLU/HellaSwag/TruthfulQA, and create custom metrics .
+
+- **[Ragas](https://github.com/explodinggradients/ragas)** [![Ragas stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers)
+  **Research-backed RAG evaluation toolkit** — objective metrics (faithfulness, answer relevance, context precision/recall), intelligent test data generation, and seamless LangChain/LlamaIndex integration .
+
+- **[lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)** [![lm-evaluation-harness stars](https://img.shields.io/github/stars/EleutherAI/lm-evaluation-harness?style=social&color=white)](https://github.com/EleutherAI/lm-evaluation-harness/stargazers)
+  The de-facto standard harness for benchmarking LLMs on MMLU, HellaSwag, ARC, TruthfulQA and hundreds more, with a task-config system that powers the Open LLM Leaderboard .
+
+- **[Arize Phoenix](https://github.com/Arize-ai/phoenix)** [![Arize Phoenix stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&color=white)](https://github.com/Arize-ai/phoenix/stargazers)
   Open-source LLM tracing and evaluation with OpenTelemetry trajectory-span analysis and Trajectory Mapping for agent loop detection .
 
-- **[Laminar](https://github.com/lmnr-ai/lmnr)**
+- **[Promptflow](https://github.com/microsoft/promptflow)** [![Promptflow stars](https://img.shields.io/github/stars/microsoft/promptflow?style=social&color=white)](https://github.com/microsoft/promptflow/stargazers)
+  Microsoft’s LLMOps toolkit for building, testing and versioning LLM flows, with integrated eval runs and CI/CD quality gates (now part of Azure AI Foundry) .
+
+- **[Evidently](https://github.com/evidentlyai/evidently)** [![Evidently stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social&color=white)](https://github.com/evidentlyai/evidently/stargazers)
+  Python library for evaluating, testing and monitoring ML and LLM systems — data/text drift, LLM evals and HTML reports you can wire into a regression pipeline .
+
+- **[Guardrails AI](https://github.com/guardrails-ai/guardrails)** [![Guardrails AI stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social&color=white)](https://github.com/guardrails-ai/guardrails/stargazers)
+  Declarative validation and structured-output-repair framework for LLM responses, with hub-contributed rails for factuality, PII, toxicity and format enforcement .
+
+- **[Traceloop / OpenLLMetry](https://github.com/traceloop/openllmetry)** [![Traceloop / OpenLLMetry stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=social&color=white)](https://github.com/traceloop/openllmetry/stargazers)
+  OpenTelemetry-native LLM application monitoring and evaluation .
+
+- **[NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![NVIDIA NeMo Guardrails stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)
+  Runtime guardrails framework for fact-checking, grounding, dialogue control and content safety around LLM apps .
+
+- **[Helicone](https://github.com/Helicone/helicone)** [![Helicone stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers)
+  Open-source LLM proxy that records every request and gives cost, latency and token dashboards plus prompt-comparison scoring for iteration .
+
+- **[Giskard](https://github.com/Giskard-AI/giskard)** [![Giskard stars](https://img.shields.io/github/stars/Giskard-AI/giskard?style=social&color=white)](https://github.com/Giskard-AI/giskard/stargazers)
+  Open-source AI quality testing for bias detection, robustness testing, and explainability across ML models and LLM applications .
+
+- **[TruLens](https://github.com/truera/trulens)** [![TruLens stars](https://img.shields.io/github/stars/truera/trulens?style=social&color=white)](https://github.com/truera/trulens/stargazers)
+  **OpenTelemetry-native evaluation and tracing framework** — RAG Triad metrics (groundedness, answer relevance, context relevance), agentic evaluators, and export to any OTLP backend (Jaeger, Grafana Tempo, Datadog). Completely free and self-hosted .
+
+- **[EvalScope](https://github.com/modelscope/evalscope)** [![EvalScope stars](https://img.shields.io/github/stars/modelscope/evalscope?style=social&color=white)](https://github.com/modelscope/evalscope/stargazers)
+  ModelScope’s all-in-one toolkit for evaluating LLMs and VLMs — benchmark suites (MMLU, C-Eval, GSM8K), multi-turn and tool-call evals, and model deep-dive reports .
+
+- **[Laminar](https://github.com/lmnr-ai/lmnr)** [![Laminar stars](https://img.shields.io/github/stars/lmnr-ai/lmnr?style=social&color=white)](https://github.com/lmnr-ai/lmnr/stargazers)
   Open-source AI agent observability with trace workflows, agent run replay, and anomaly detection .
 
-- **[Inspect](https://github.com/UKGovernmentBEIS/inspect_ai)**
+- **[Inspect](https://github.com/UKGovernmentBEIS/inspect_ai)** [![Inspect stars](https://img.shields.io/github/stars/UKGovernmentBEIS/inspect_ai?style=social&color=white)](https://github.com/UKGovernmentBEIS/inspect_ai/stargazers)
   UK AI Safety Institute framework for LLM evaluations supporting ReAct, Deep Agent, and custom multi-agent architectures with first-class tool use .
 
-- **[Litmus](https://github.com/ivkond/litmus)**
-  Terminal UI for running LLM agent coding scenarios across Claude Code, Codex, Aider, and Cursor Agent, with LLM-judge scoring across 20 agent and 20 model criteria .
+- **[OpenLIT](https://github.com/openlit/openlit)** [![OpenLIT stars](https://img.shields.io/github/stars/openlit/openlit?style=social&color=white)](https://github.com/openlit/openlit/stargazers)
+  OpenTelemetry-native LLMOps platform with evaluation, observability, and guardrails for LLM applications .
 
-- **[JudgeArena](https://github.com/OpenEuroLLM/JudgeArena)**
+- **[LightEval](https://github.com/huggingface/lighteval)** [![LightEval stars](https://img.shields.io/github/stars/huggingface/lighteval?style=social&color=white)](https://github.com/huggingface/lighteval/stargazers)
+  Hugging Face’s lightweight evaluation harness covering ~400 benchmarks across text, image and audio, extensible with new metrics in a few lines of code .
+
+- **[Agentevals](https://github.com/langchain-ai/agentevals)** [![Agentevals stars](https://img.shields.io/github/stars/langchain-ai/agentevals?style=social&color=white)](https://github.com/langchain-ai/agentevals/stargazers)
+  LangChain's trajectory matching for agent evaluation (strict, unordered, superset, subset modes) with LLM-judge evaluator .
+
+- **[G-Eval](https://github.com/nlpyang/geval)** [![G-Eval stars](https://img.shields.io/github/stars/nlpyang/geval?style=social&color=white)](https://github.com/nlpyang/geval/stargazers)
+  Research implementation of the G-Eval metric, now folded into DeepEval and several other frameworks .
+
+- **[JudgeArena](https://github.com/OpenEuroLLM/JudgeArena)** [![JudgeArena stars](https://img.shields.io/github/stars/OpenEuroLLM/JudgeArena?style=social&color=white)](https://github.com/OpenEuroLLM/JudgeArena/stargazers)
   Swappable-judge evaluation framework supporting MT-Bench, AlpacaEval, Arena-Hard, and m-Arena-Hard with vLLM self-hosted judges and provider-agnostic LangChain backends .
 
-- **[EvalForge Lite](https://github.com/thejaredchapman/evalforge-lite)**
-  Lightweight side-by-side model comparison across OpenRouter, Bedrock, Vertex AI, and Microsoft Foundry with automatic grading, policy gating, and MCP server integration for Claude .
-
-- **[Clean-Evals](https://github.com/datathere/clean-evals)**
+- **[Clean-Evals](https://github.com/datathere/clean-evals)** [![Clean-Evals stars](https://img.shields.io/github/stars/datathere/clean-evals?style=social&color=white)](https://github.com/datathere/clean-evals/stargazers)
   Local evaluation workflow with blind human review, judge calibration, leaderboards, and per-case heatmaps. SQLite-based, no database server required .
 
-- **[Vectory](https://pypi.org/project/vectoryai/)**
-  Proof-grounded evaluation for agents — scores traces on policy adherence, proof obligations, checker results, and pathologies like premature planning or retrieval thrashing. Designed for release gating .
+- **[EvalForge Lite](https://github.com/thejaredchapman/evalforge-lite)** [![EvalForge Lite stars](https://img.shields.io/github/stars/thejaredchapman/evalforge-lite?style=social&color=white)](https://github.com/thejaredchapman/evalforge-lite/stargazers)
+  Lightweight side-by-side model comparison across OpenRouter, Bedrock, Vertex AI, and Microsoft Foundry with automatic grading, policy gating, and MCP server integration for Claude .
 
-### Additional Strong Open-Source Options
+- **[Litmus](https://github.com/ivkond/litmus)** [![Litmus stars](https://img.shields.io/github/stars/ivkond/litmus?style=social&color=white)](https://github.com/ivkond/litmus/stargazers)
+  Terminal UI for running LLM agent coding scenarios across Claude Code, Codex, Aider, and Cursor Agent, with LLM-judge scoring across 20 agent and 20 model criteria .
 
-- **[Agentevals](https://github.com/langchain-ai/agentevals)** — LangChain's trajectory matching for agent evaluation (strict, unordered, superset, subset modes) with LLM-judge evaluator .
-- **[Traceloop / OpenLLMetry](https://github.com/traceloop/openllmetry)** — OpenTelemetry-native LLM application monitoring and evaluation .
-- **[NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** — Runtime guardrails framework for fact-checking and grounding .
-- **[Vectara HHEM-2.1](https://huggingface.co/vectara/hallucination_evaluation_model)** — Open-weights cross-encoder hallucination detection model for RAG groundedness .
-- **[G-Eval](https://github.com/nlpyang/geval)** — Research implementation of G-Eval metric now integrated into DeepEval and other frameworks .
+- **[Vectory](https://pypi.org/project/vectoryai/)** [![Vectory on PyPI](https://img.shields.io/pypi/v/vectoryai?style=social&color=white)](https://pypi.org/project/vectoryai/)
+  Proof-grounded evaluation for agents — scores traces on policy adherence, proof obligations, checker results, and pathologies like premature planning or retrieval thrashing. Designed for release gating (published on PyPI, not GitHub, so it carries a version badge instead of a star badge) .
+
+- **[Vectara HHEM-2.1](https://huggingface.co/vectara/hallucination_evaluation_model)** [![HHEM on Hugging Face](https://img.shields.io/huggingface/stars/vectara/hallucination_evaluation_model?style=social&color=white)](https://huggingface.co/vectara/hallucination_evaluation_model)
+  Open-weights cross-encoder hallucination detection model for RAG groundedness (hosted on Hugging Face, so the badge shows Hugging Face likes rather than GitHub stars) .
 
 **Frameworks for building custom systems**: Combine **Promptfoo** for CI/CD prompt regression testing, **DeepEval** for unit-style assertions, **Ragas** for RAG-specific metrics, and **TruLens** for OpenTelemetry-based tracing. For agent evaluation, layer in **Agentevals** for trajectory matching and **Vectory** for release gating. For self-hosted observability, pair with **Langfuse** or **Arize Phoenix**.
 
