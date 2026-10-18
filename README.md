@@ -2,9 +2,9 @@
 
 ![Animated banner for Awesome LLM Evaluation &amp; Testing](assets/banner.svg)
 
-<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-LLM-Evaluation-Testing/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/ishandutta2007/Awesome-LLM-Evaluation-Testing?style=for-the-badge&logo=github&logoColor=white" /></a><a href="https://github.com/ishandutta2007/Awesome-LLM-Evaluation-Testing/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/ishandutta2007/Awesome-LLM-Evaluation-Testing?style=for-the-badge&logo=github&logoColor=white" /></a><a href="https://github.com/ishandutta2007/Awesome-LLM-Evaluation-Testing/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/ishandutta2007/Awesome-LLM-Evaluation-Testing?style=for-the-badge&logo=github&logoColor=white" /></a><a href="https://github.com/ishandutta2007/Awesome-LLM-Evaluation-Testing/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/github/license/ishandutta2007/Awesome-LLM-Evaluation-Testing?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-LLM-Evaluation-Testing/stargazers"><img alt="GitHub_Stars" src="https://img.shields.io/github/stars/ishandutta2007/Awesome-LLM-Evaluation-Testing?style=for-the-badge&logo=github&logoColor=white" /></a><a href="https://github.com/ishandutta2007/Awesome-LLM-Evaluation-Testing/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/ishandutta2007/Awesome-LLM-Evaluation-Testing?style=for-the-badge&logo=github&logoColor=white" /></a><a href="https://github.com/ishandutta2007/Awesome-LLM-Evaluation-Testing/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/ishandutta2007/Awesome-LLM-Evaluation-Testing?style=for-the-badge&logo=github&logoColor=white" /></a><a href="https://github.com/ishandutta2007/Awesome-LLM-Evaluation-Testing/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/github/license/ishandutta2007/Awesome-LLM-Evaluation-Testing?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-> **The best LLM evaluation tools and LLM testing frameworks, curated in one list** — 40+ open-source LLM evaluators, RAG evaluation libraries, prompt testing tools, agent evaluation frameworks and LLM observability platforms, each with pricing, free-tier limits and live star counts.
+> **The best LLM evaluation tools and LLM testing frameworks, curated in one list** — 40+ open-source LLM evaluators, RAG evaluation libraries, prompt testing tools, agent evaluation frameworks and LLM observability platforms, each with pricing, free-tier limits and live Stars_Counts.
 
 ## Top LLM Evaluation & Testing Ecosystem
 
@@ -57,7 +57,7 @@ If you are comparing **LLM evaluation tools**, **LLM testing frameworks**, **RAG
 
 ## Open-Source GitHub Projects
 
-⭐ Every repository below carries a live **star badge** (`style=social`, white) that links straight to its own stargazers page, and the list is sorted by **star count, descending** (star counts move, so the badges are the source of truth).
+⭐ Every repository below carries a live **Stars_Badge** (`style=social`, white) that links straight to its own stargazers page, and the list is sorted by **Stars_Count, descending** (Stars_Counts move, so the badges are the source of truth).
 
 - 🧰 **[Langfuse](https://github.com/langfuse/langfuse)** [![Langfuse stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)
   Open-source LLM observability and evaluation platform with managed LLM-as-judge, annotation queues, and prompt experiments. MIT licensed and self-hostable .
@@ -141,10 +141,10 @@ If you are comparing **LLM evaluation tools**, **LLM testing frameworks**, **RAG
   Terminal UI for running LLM agent coding scenarios across Claude Code, Codex, Aider, and Cursor Agent, with LLM-judge scoring across 20 agent and 20 model criteria .
 
 - 🧰 **[Vectory](https://pypi.org/project/vectoryai/)** [![Vectory on PyPI](https://img.shields.io/pypi/v/vectoryai?style=social&color=white)](https://pypi.org/project/vectoryai/)
-  Proof-grounded evaluation for agents — scores traces on policy adherence, proof obligations, checker results, and pathologies like premature planning or retrieval thrashing. Designed for release gating (published on PyPI, not GitHub, so it carries a version badge instead of a star badge) .
+  Proof-grounded evaluation for agents — scores traces on policy adherence, proof obligations, checker results, and pathologies like premature planning or retrieval thrashing. Designed for release gating (published on PyPI, not GitHub, so it carries a version badge instead of a Stars_Badge) .
 
 - 🧰 **[Vectara HHEM-2.1](https://huggingface.co/vectara/hallucination_evaluation_model)** [![HHEM on Hugging Face](https://img.shields.io/huggingface/stars/vectara/hallucination_evaluation_model?style=social&color=white)](https://huggingface.co/vectara/hallucination_evaluation_model)
-  Open-weights cross-encoder hallucination detection model for RAG groundedness (hosted on Hugging Face, so the badge shows Hugging Face likes rather than GitHub stars) .
+  Open-weights cross-encoder hallucination detection model for RAG groundedness (hosted on Hugging Face, so the badge shows Hugging Face likes rather than GitHub_Stars) .
 
 🧩 **Frameworks for building custom systems**: Combine **Promptfoo** for CI/CD prompt regression testing, **DeepEval** for unit-style assertions, **Ragas** for RAG-specific metrics, and **TruLens** for OpenTelemetry-based tracing. For agent evaluation, layer in **Agentevals** for trajectory matching and **Vectory** for release gating. For self-hosted observability, pair with **Langfuse** or **Arize Phoenix**.
 
@@ -205,4 +205,4 @@ Let's make LLM evaluation more open, rigorous, and vendor-neutral.
 
 ## 📈 Star History
 
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-LLM-Evaluation-Testing&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-LLM-Evaluation-Testing&type=date&legend=top-left)
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-LLM-Evaluation-Testing&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-LLM-Evaluation-Testing&type=date&legend=top-left)
