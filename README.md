@@ -22,24 +22,25 @@ If you are comparing **LLM evaluation tools**, **LLM testing frameworks**, **RAG
 
 🎉 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [🌍 Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 
 - [💼 SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [🔓 Open-Source GitHub Projects](#open-source-github-projects)- [🤝 How to Contribute](#how-to-contribute)
+- [🔓 Open-Source GitHub Projects](#open-source-github-projects)
+- [🤝 How to Contribute](#how-to-contribute)
 
 - [❓ Frequently Asked Questions](#frequently-asked-questions)
 
 - [⚠️ Disclaimer](#disclaimer)
 
-## 🌍 Sector Overview & Market Dynamics
+## Sector Overview & Market Dynamics
 
 📊 **Estimated market size:** The LLM evaluation platform market was worth roughly **$2.4 billion in 2025** and is forecast to hit **$18.7 billion by 2034 (25.6% CAGR)**; the neighbouring AI-observability segment is estimated at **$1.4–1.8 billion in 2026**, eying **$13.9–16.1 billion by the mid-2030s**. Analyst definitions differ, so read those as a range rather than one consensus number.
 
 🧩 **Market structure: moderately fragmented — not winner-take-all.** There is no dominant leader: 20+ specialist evaluation and observability vendors coexist with general-purpose incumbents (Datadog, New Relic, Grafana) and platform entrants (LangSmith, Databricks), share data is unpublished, and consolidation is only now starting (CoreWeave→Weights & Biases 2025, ClickHouse→Langfuse 2026, Cisco→Galileo 2026) — a fragmented field with deep-pocketed buyers, so multi-vendor and open-source adoption remain the norm.
 
-## 💼 SaaS/Hosted Platforms
+## SaaS/Hosted Platforms
 
 💰 Prices below are the **lowest publicly listed paid tier** (USD, as published on each vendor's own pricing page or marketplace listing); free-tier figures are the documented **free-for-ever** quotas, or the trial length where only a trial exists. **Rows are sorted by company size (descending)**, using the most recent disclosed valuation and falling back to the latest funding round or estimated revenue where no valuation is public.
 
@@ -54,7 +55,7 @@ If you are comparing **LLM evaluation tools**, **LLM testing frameworks**, **RAG
 | 💼 *[Confident AI](https://www.confident-ai.com/)** | **≈$550K estimated revenue (2025)**; valuation not disclosed | Cloud platform for DeepEval with evaluation result logging, LLM tracing, dataset management, and production monitoring. | **Starter: $200/month per organization** (unlimited seats, up to 5 projects). | **Free forever**: 2 seats, 1 project, **5 test runs/week**, 1 GB-month of trace data, 1-week retention. |
 | 💼 *[Ragas Cloud](https://www.ragas.io/)** | **≈$330K estimated revenue (2025)**; Y Combinator-backed | Managed evaluation service for RAG pipelines built on the open-source Ragas framework, with hosted dashboards and continuous monitoring. | **$0 for the self-hosted OSS framework (Apache-2.0)**; the hosted Ragas Cloud/enterprise offer has **no published list price** — it is sold via quote. | **Free forever**: the full OSS framework with unlimited local metrics, datasets and runs (you only pay your own judge-model API bills). No hosted free plan and no trial days are published for Ragas Cloud. |
 
-## 🔓 Open-Source GitHub Projects
+## Open-Source GitHub Projects
 
 ⭐ Every repository below carries a live **star badge** (`style=social`, white) that links straight to its own stargazers page, and the list is sorted by **star count, descending** (star counts move, so the badges are the source of truth).
 
@@ -147,7 +148,7 @@ If you are comparing **LLM evaluation tools**, **LLM testing frameworks**, **RAG
 
 🧩 **Frameworks for building custom systems**: Combine **Promptfoo** for CI/CD prompt regression testing, **DeepEval** for unit-style assertions, **Ragas** for RAG-specific metrics, and **TruLens** for OpenTelemetry-based tracing. For agent evaluation, layer in **Agentevals** for trajectory matching and **Vectory** for release gating. For self-hosted observability, pair with **Langfuse** or **Arize Phoenix**.
 
-## ❓ Frequently Asked Questions
+## Frequently Asked Questions
 
 🧠 **What is LLM evaluation?**  
 LLM evaluation is the practice of measuring a language model's output quality with automated metrics or LLM-as-judge scoring — covering hallucination and faithfulness checks, RAG evaluation, prompt regression testing, red-teaming for safety, and agent trajectory scoring.
@@ -164,7 +165,7 @@ Yes — every open-source project listed here is free forever under an OSI licen
 ⚖️ **LLM observability vs. LLM testing — what is the difference?**  
 Testing runs evaluations before a release (offline evals, regression suites, red-teaming), while observability traces production traffic and scores it continuously; most teams combine both, which is why this list groups hosted platforms and open-source frameworks side by side.
 
-## 🤝 How to Contribute
+## How to Contribute
 
 1. Fork the repo.
 2. Add/edit entries in `README.md` (follow existing format).
@@ -173,7 +174,7 @@ Testing runs evaluations before a release (offline evals, regression suites, red
 
 ⭐ Star the repo if you find it useful!
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 - This is a **community-curated** list — not exhaustive and not an endorsement.
 - LLM evaluation requires careful metric selection: RAG-focused metrics (faithfulness, context relevance) differ from agentic metrics (plan adherence, tool efficiency) and from safety metrics (toxicity, bias) .
