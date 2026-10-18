@@ -187,4 +187,10 @@ Let's make LLM evaluation more open, rigorous, and vendor-neutral.
 
 ---
 
-*🔍 Popular searches that lead here: awesome LLM evaluation tools · LLM testing frameworks · prompt regression testing · RAG evaluation metrics · agent evaluation · LLM observability platforms · AI guardrails · LLM-as-judge · red teaming LLMs*
+*🔍 Popular searches that lead here: awesome LLM evaluation tools · LLM testing frameworks · prompt regression testing · RAG evaluation metrics · agent evaluation · LLM observability platforms · AI guardrails · LLM-as-judge · red teaming LLMs*
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-LLM-Evaluation-Testing&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-LLM-Evaluation-Testing&type=date&legend=top-left)
