@@ -18,10 +18,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
+
+## Sector Overview & Market Dynamics
+
+**Estimated market size:** The LLM evaluation platform market was worth roughly **$2.4 billion in 2025** and is forecast to hit **$18.7 billion by 2034 (25.6% CAGR)**; the neighbouring AI-observability segment is estimated at **$1.4–1.8 billion in 2026**, eying **$13.9–16.1 billion by the mid-2030s**. Analyst definitions differ, so read those as a range rather than one consensus number.
+
+**Market structure: moderately fragmented — not winner-take-all.** There is no dominant leader: 20+ specialist evaluation and observability vendors coexist with general-purpose incumbents (Datadog, New Relic, Grafana) and platform entrants (LangSmith, Databricks), share data is unpublished, and consolidation is only now starting (CoreWeave→Weights & Biases 2025, ClickHouse→Langfuse 2026, Cisco→Galileo 2026) — a fragmented field with deep-pocketed buyers, so multi-vendor and open-source adoption remain the norm.
 
 ## SaaS/Hosted Platforms
 
