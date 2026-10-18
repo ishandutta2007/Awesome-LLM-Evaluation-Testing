@@ -26,7 +26,7 @@ If you are comparing **LLM evaluation tools**, **LLM testing frameworks**, **RAG
 
 - [🌍 Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 
-- [💼 SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [💼 SaaS/Hosted Platforms](#saashosted-platforms)
 - [🔓 Open-Source GitHub Projects](#open-source-github-projects)
 - [🤝 How to Contribute](#how-to-contribute)
 
