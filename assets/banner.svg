@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Awesome LLM Evaluation &amp; Testing</title>
+  <desc id="bannerDesc">Animated banner: a dark gradient stage with a moving grid, drifting metric cards, an animated evaluation score line and pulsing judge nodes, with the title kept in the foreground.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#111c3d"/>
+      <stop offset="1" stop-color="#080c18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="areaFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#1e3a8a" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#1e3a8a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#2c3f73" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background stage -->
+  <rect width="1200" height="360" fill="url(#bg)"/>
+
+  <!-- Animated drifting grid -->
+  <g opacity="0.35">
+    <rect x="-40" y="-40" width="1280" height="440" fill="url(#grid)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="40 40" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Sweeping light bar -->
+  <rect x="-320" y="0" width="320" height="360" fill="url(#sweep)">
+    <animate attributeName="x" from="-320" to="1200" dur="9s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Flowing waves -->
+  <g opacity="0.5">
+    <path fill="none" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.35"
+          d="M-40 300 C 60 270, 140 330, 240 300 S 420 270, 520 300 S 700 330, 800 300 S 980 270, 1080 300 S 1260 330, 1360 300 S 1540 270, 1640 300 S 1820 330, 1920 300 S 2100 270, 2200 300">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-400 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path fill="none" stroke="#a78bfa" stroke-width="2" stroke-opacity="0.3"
+          d="M-40 320 C 60 350, 140 290, 240 320 S 420 350, 520 320 S 700 290, 800 320 S 980 350, 1080 320 S 1260 290, 1360 320 S 1540 350, 1640 320 S 1820 290, 1920 320 S 2100 350, 2200 320">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-400 0" dur="16s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Animated evaluation score line -->
+  <g>
+    <path fill="url(#areaFill)" opacity="0.8"
+          d="M40 330 L40 316 L140 300 L240 308 L340 274 L440 288 L540 250 L640 262 L740 226 L840 244 L940 208 L1040 222 L1160 190 L1160 330 Z"/>
+    <polyline fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+              stroke-dasharray="2600" points="40,316 140,300 240,308 340,274 440,288 540,250 640,262 740,226 840,244 940,208 1040,222 1160,190">
+      <animate attributeName="stroke-dashoffset" values="2600;0" dur="6s" repeatCount="indefinite"/>
+    </polyline>
+    <g fill="#e2e8f0">
+      <circle cx="340" cy="274" r="4"><animate attributeName="r" values="3;7;3" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="740" cy="226" r="4"><animate attributeName="r" values="3;7;3" dur="3s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="1160" cy="190" r="4"><animate attributeName="r" values="3;7;3" dur="3s" begin="2s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <!-- Pulsing judge nodes -->
+  <g>
+    <g transform="translate(60,150)">
+      <circle r="16" fill="#0ea5e9" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1.5"/>
+      <circle r="5" fill="#7dd3fc"/>
+      <circle r="16" fill="none" stroke="#38bdf8" stroke-width="1.5">
+        <animate attributeName="r" values="16;34" dur="2.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g transform="translate(1140,120)">
+      <circle r="16" fill="#8b5cf6" fill-opacity="0.25" stroke="#a78bfa" stroke-width="1.5"/>
+      <circle r="5" fill="#c4b5fd"/>
+      <circle r="16" fill="none" stroke="#a78bfa" stroke-width="1.5">
+        <animate attributeName="r" values="16;34" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Drifting metric cards (background layer, edges only) -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">
+    <g>
+      <rect x="24" y="30" width="196" height="40" rx="20" fill="#0f1b3d" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="122" y="55" text-anchor="middle" fill="#bae6fd">hallucination 0.4%</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="968" y="26" width="208" height="40" rx="20" fill="#0f1b3d" stroke="#a78bfa" stroke-opacity="0.6"/>
+      <text x="1072" y="51" text-anchor="middle" fill="#ddd6fe">faithfulness 0.96</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 9; 0 0" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="34" y="268" width="212" height="40" rx="20" fill="#0f1b3d" stroke="#34d399" stroke-opacity="0.6"/>
+      <text x="140" y="293" text-anchor="middle" fill="#a7f3d0">prompt regression: pass</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10; 0 0" dur="11s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="946" y="272" width="230" height="40" rx="20" fill="#0f1b3d" stroke="#38bdf8" stroke-opacity="0.55"/>
+      <text x="1061" y="297" text-anchor="middle" fill="#bae6fd">agent trajectory scored</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 8; 0 0" dur="10s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Foreground: halo + title + subtitle, always on top -->
+  <ellipse cx="600" cy="165" rx="470" ry="110" fill="url(#halo)"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="160" font-size="56" font-weight="800" fill="#ffffff"
+          stroke="#0b1020" stroke-width="8" paint-order="stroke">AWESOME LLM EVALUATION &amp; TESTING</text>
+    <text x="600" y="206" font-size="22" font-weight="600" fill="#cbd5e1"
+          stroke="#0b1020" stroke-width="6" paint-order="stroke">Prompt regression · RAG evaluation · Agent observability</text>
+    <text x="600" y="242" font-size="16" fill="#94a3b8" stroke="#0b1020" stroke-width="5" paint-order="stroke">SaaS platforms &amp; open-source frameworks, priced and star-ranked</text>
+  </g>
+</svg>
