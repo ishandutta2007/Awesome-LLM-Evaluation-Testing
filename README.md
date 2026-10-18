@@ -1,5 +1,7 @@
 # Awesome-LLM-Evaluation-Testing
 
+> **The best LLM evaluation tools and LLM testing frameworks, curated in one list** — 40+ open-source LLM evaluators, RAG evaluation libraries, prompt testing tools, agent evaluation frameworks and LLM observability platforms, each with pricing, free-tier limits and live star counts.
+
 ## Top LLM Evaluation & Testing Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**
@@ -8,7 +10,7 @@
 
 **Last updated: March 2026**
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **LLM Evaluation & Testing**. These tools measure output quality, detect hallucinations, catch prompt regressions, evaluate RAG pipelines, red-team for safety vulnerabilities, and monitor agent behavior in production.
+If you are comparing **LLM evaluation tools**, **LLM testing frameworks**, **RAG evaluation metrics** or **LLM observability platforms**, this list is built for you: it tracks notable **SaaS platforms** and **open-source projects** for **LLM Evaluation & Testing**. These tools measure output quality, detect hallucinations, catch prompt regressions, evaluate RAG pipelines, red-team for safety vulnerabilities, and monitor agent behavior in production.
 
 **Examples** include Patronus AI, DeepEval, Ragas Cloud, TruLens, Confident AI, Braintrust, Galileo, Arthur AI, Fiddler AI, and Scale AI (the category leaders).
 
@@ -21,8 +23,10 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
+- [Open-Source GitHub Projects](#open-source-github-projects)- [How to Contribute](#how-to-contribute)
+
+- [Frequently Asked Questions](#frequently-asked-questions)
+
 - [Disclaimer](#disclaimer)
 
 ## Sector Overview & Market Dynamics
@@ -139,6 +143,23 @@ Every repository below carries a live **star badge** (`style=social`, white) tha
 
 **Frameworks for building custom systems**: Combine **Promptfoo** for CI/CD prompt regression testing, **DeepEval** for unit-style assertions, **Ragas** for RAG-specific metrics, and **TruLens** for OpenTelemetry-based tracing. For agent evaluation, layer in **Agentevals** for trajectory matching and **Vectory** for release gating. For self-hosted observability, pair with **Langfuse** or **Arize Phoenix**.
 
+## Frequently Asked Questions
+
+**What is LLM evaluation?**  
+LLM evaluation is the practice of measuring a language model's output quality with automated metrics or LLM-as-judge scoring — covering hallucination and faithfulness checks, RAG evaluation, prompt regression testing, red-teaming for safety, and agent trajectory scoring.
+
+**What is the best open-source LLM testing framework?**  
+It depends on your stack: **Promptfoo** for CI/CD prompt regression testing, **DeepEval** for pytest-style unit tests, **Ragas** for RAG evaluation metrics, **Langfuse** for self-hosted LLM observability, and **lm-evaluation-harness** for benchmark runs — all are free to self-host and appear in the star-sorted table above.
+
+**What is RAG evaluation?**  
+RAG evaluation scores the retrieval-augmented generation pipeline itself: context precision and recall, faithfulness to retrieved passages, and answer relevance — the metrics implemented by Ragas, DeepEval, TruLens and Vectara HHEM.
+
+**Is there a free LLM evaluation tool?**  
+Yes — every open-source project listed here is free forever under an OSI licence, and most SaaS vendors publish a free tier (Braintrust 1 GB/month, Arthur 4 use cases, Confident AI 5 test runs/week, Galileo 5,000 traces/month); exact quotas are in the pricing table above.
+
+**LLM observability vs. LLM testing — what is the difference?**  
+Testing runs evaluations before a release (offline evals, regression suites, red-teaming), while observability traces production traffic and scores it continuously; most teams combine both, which is why this list groups hosted platforms and open-source frameworks side by side.
+
 ## How to Contribute
 
 1. Fork the repo.
@@ -155,7 +176,9 @@ Star the repo if you find it useful!
 - Self-hosted evaluation solutions require API keys for judge models (OpenAI, Anthropic, local Ollama) and proper prompt engineering for LLM-as-judge reliability.
 - No single evaluation framework covers all use cases — production teams typically combine local unit tests (DeepEval/Promptfoo) with production tracing (TruLens/Langfuse) and periodic red-teaming.
 
+---**Made for AI engineers, ML researchers, evaluation scientists, and platform teams.**  
+Let's make LLM evaluation more open, rigorous, and vendor-neutral.
+
 ---
 
-**Made for AI engineers, ML researchers, evaluation scientists, and platform teams.**
-Let's make LLM evaluation more open, rigorous, and vendor-neutral.
+*Popular searches that lead here: awesome LLM evaluation tools · LLM testing frameworks · prompt regression testing · RAG evaluation metrics · agent evaluation · LLM observability platforms · AI guardrails · LLM-as-judge · red teaming LLMs*
