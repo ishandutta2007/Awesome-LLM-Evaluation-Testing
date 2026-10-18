@@ -180,6 +180,17 @@ Testing runs evaluations before a release (offline evals, regression suites, red
 - Self-hosted evaluation solutions require API keys for judge models (OpenAI, Anthropic, local Ollama) and proper prompt engineering for LLM-as-judge reliability.
 - No single evaluation framework covers all use cases — production teams typically combine local unit tests (DeepEval/Promptfoo) with production tracing (TruLens/Langfuse) and periodic red-teaming.
 
+## 💖 Support This List
+
+Thank you for reading! This list is curated in public and kept up to date as the LLM evaluation landscape moves. If it helped you choose a tool, please consider:
+
+- ⭐ **Star** this repository — it takes a second and keeps the list discoverable for everyone else.
+- 🍴 **Fork** it and open a PR with the tools we are still missing.
+- 🔁 **Share** it with your team, in Slack, or on social media.
+- ☕ **Buy the maintainer a coffee** — support continued maintenance through the [GitHub Sponsors dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you 🙏
+
 ---
 
 🛠️ **Made for AI engineers, ML researchers, evaluation scientists, and platform teams.**  
