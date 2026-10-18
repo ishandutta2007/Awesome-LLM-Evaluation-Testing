@@ -1,5 +1,7 @@
 # Awesome-LLM-Evaluation-Testing
 
+![Animated banner for Awesome LLM Evaluation &amp; Testing](assets/banner.svg)
+
 > **The best LLM evaluation tools and LLM testing frameworks, curated in one list** — 40+ open-source LLM evaluators, RAG evaluation libraries, prompt testing tools, agent evaluation frameworks and LLM observability platforms, each with pricing, free-tier limits and live star counts.
 
 ## Top LLM Evaluation & Testing Ecosystem
@@ -176,7 +178,9 @@ Star the repo if you find it useful!
 - Self-hosted evaluation solutions require API keys for judge models (OpenAI, Anthropic, local Ollama) and proper prompt engineering for LLM-as-judge reliability.
 - No single evaluation framework covers all use cases — production teams typically combine local unit tests (DeepEval/Promptfoo) with production tracing (TruLens/Langfuse) and periodic red-teaming.
 
----**Made for AI engineers, ML researchers, evaluation scientists, and platform teams.**  
+---
+
+**Made for AI engineers, ML researchers, evaluation scientists, and platform teams.**  
 Let's make LLM evaluation more open, rigorous, and vendor-neutral.
 
 ---
